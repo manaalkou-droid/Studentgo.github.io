@@ -952,4 +952,13 @@ p{
         text-align: center;
         gap: 0.5rem;
     }
+
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* empêche le scroll horizontal */
+  -webkit-text-size-adjust: 100%; /* empêche le zoom automatique du texte sur iPhone */
+  touch-action: manipulation; /* évite les zooms ou double-taps */
 }
